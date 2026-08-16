@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ハッピーアロマ｜山口市 更年期・自律神経専門 女性専用プライベートアロマサロン</title>
+  <meta name="description" content="山口市の女性専用プライベートアロマサロン。セラピスト歴26年のあきが、更年期・アレルギー・自律神経の不調をアロマ×リンパで根本から整えます。薬に頼らず「あれ？最近しんどくない」を一緒に実現しましょう。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --pink:       #F2A7BE;
+      --pink-light: #FDE8F0;
+      --pink-pale:  #FFF5F8;
+      --brown:      #7A5C4E;
+      --brown-dark: #5C3D2E;
+      --beige:      #F9F0EA;
+      --beige-dark: #EFE0D5;
+      --text:       #3D2B1F;
+      --text-sub:   #7A6055;
+      --white:      #FFFFFF;
+      --gold:       #C9A86C;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.8;
+      font-size: 15px;
+      word-break: normal;
+      overflow-wrap: break-word;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    img { max-width: 100%; display: block; }
+
+    /* ========== HEADER ========== */
+    .site-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.96);
+      border-bottom: 1px solid var(--pink-light);
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .site-header .logo {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--brown);
+      letter-spacing: 0.05em;
+    }
+    .header-cta {
+      background: var(--pink);
+      color: var(--white);
+      border: none;
+      border-radius: 50px;
+      padding: 8px 18px;
+      font-size: 13px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+    }
+
+    /* ========== HERO ========== */
+    .hero {
+      margin-top: 57px;
+      background: linear-gradient(160deg, var(--pink-pale) 0%, var(--beige) 100%);
+      padding: 60px 24px 50px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-label {
+      display: inline-block;
+      background: var(--pink);
+      color: var(--white);
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      padding: 4px 16px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(26px, 7vw, 38px);
+      color: var(--brown-dark);
+      line-height: 1.5;
+      margin-bottom: 12px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero h1 .accent {
+      color: var(--pink);
+      font-size: 1.1em;
+    }
+    .hero-sub {
+      font-size: 14px;
+      color: var(--text-sub);
+      margin-bottom: 30px;
+      line-height: 1.9;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-badges {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+      position: relative;
+      z-index: 1;
+    }
+    .badge {
+      background: var(--white);
+      border: 1px solid var(--pink);
+      color: var(--brown);
+      font-size: 12px;
+      padding: 5px 14px;
+      border-radius: 50px;
+    }
+    .hero-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--pink) 0%, #E8809F 100%);
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 700;
+      padding: 16px 40px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(242,167,190,0.5);
+      position: relative;
+      z-index: 1;
+    }
+    .hero-btn-sub {
+      font-size: 11px;
+      color: var(--text-sub);
+      margin-top: 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ========== PAIN SECTION ========== */
+    .pain {
+      background: var(--brown-dark);
+      color: var(--white);
+      padding: 50px 24px;
+      text-align: center;
+    }
+    .pain h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 20px;
+      margin-bottom: 28px;
+      line-height: 1.6;
+    }
+    .pain h2 span { color: var(--pink); }
+    .pain-list {
+      list-style: none;
+      text-align: left;
+      max-width: 340px;
+      margin: 0 auto 28px;
+    }
+    .pain-list li {
+      padding: 10px 0 10px 28px;
+      border-bottom: 1px solid rgba(255,255,255,0.15);
+      position: relative;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .pain-list li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--pink);
+      font-weight: 700;
+    }
+    .pain-answer {
+      background: rgba(255,255,255,0.1);
+      border-left: 3px solid var(--pink);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      text-align: left;
+      max-width: 340px;
+      margin: 0 auto;
+      font-size: 14px;
+      line-height: 1.9;
+    }
+    .pain-answer strong {
+      display: block;
+      font-size: 16px;
+      color: var(--pink);
+      margin-bottom: 6px;
+    }
+
+    /* ========== SECTION COMMON ========== */
+    section { padding: 60px 24px; }
+    .section-label {
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      color: var(--pink);
+      text-align: center;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+    .section-title {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(22px, 5vw, 30px);
+      color: var(--brown-dark);
+      text-align: center;
+      line-height: 1.5;
+      margin-bottom: 40px;
+    }
+
+    /* ========== CONCEPT ========== */
+    .concept { background: var(--white); }
+    .concept-body {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .concept-quote {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(22px, 6vw, 34px);
+      color: var(--pink);
+      line-height: 1.6;
+      margin-bottom: 24px;
+      border-top: 1px solid var(--pink-light);
+      border-bottom: 1px solid var(--pink-light);
+      padding: 24px 0;
+    }
+    .concept-text {
+      font-size: 15px;
+      color: var(--text-sub);
+      line-height: 2;
+      text-align: left;
+    }
+    .concept-text p { margin-bottom: 16px; }
+    .concept-text strong { color: var(--brown-dark); }
+    .concept-text .mobile-break { display: none; }
+
+    @media (max-width: 639px) {
+      .concept-text .mobile-break { display: block; }
+    }
+
+    /* ========== RESULTS ========== */
+    .results { background: var(--pink-pale); }
+    .results-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      max-width: 500px;
+      margin: 0 auto;
+      grid-auto-rows: 176px;
+    }
+    .result-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 18px 14px;
+      text-align: center;
+      box-shadow: 0 2px 12px rgba(122,92,78,0.08);
+      box-sizing: border-box;
+      position: relative;
+    }
+    .result-card .icon {
+      font-size: 28px;
+      line-height: 1;
+      margin: 0;
+      position: absolute;
+      top: 18px;
+      right: 0;
+      left: 0;
+    }
+    .result-card .result-text {
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.6;
+      font-weight: 500;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .result-card .result-name {
+      font-size: 11px;
+      color: var(--text-sub);
+      margin: 0;
+      position: absolute;
+      right: 0;
+      bottom: 18px;
+      left: 0;
+    }
+
+    /* ========== REASONS ========== */
+    .reasons { background: var(--white); }
+    .reason-list { max-width: 500px; margin: 0 auto; }
+    .reason-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--beige-dark);
+    }
+    .reason-item:last-child { border-bottom: none; }
+    .reason-num {
+      min-width: 44px;
+      height: 44px;
+      background: var(--pink);
+      color: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Noto Serif JP', serif;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .reason-content h3 {
+      font-size: 16px;
+      color: var(--brown-dark);
+      font-weight: 700;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+    .reason-content p {
+      font-size: 13px;
+      color: var(--text-sub);
+      line-height: 1.8;
+    }
+
+    /* ========== MENU ========== */
+    .menu { background: var(--beige); }
+    .menu-cards { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+    .menu-card {
+      background: var(--white);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 2px 16px rgba(122,92,78,0.1);
+    }
+    .menu-card-header {
+      background: linear-gradient(135deg, var(--pink) 0%, #E8809F 100%);
+      padding: 20px 24px;
+      color: var(--white);
+    }
+    .menu-card-header .menu-tag {
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      background: rgba(255,255,255,0.3);
+      padding: 2px 10px;
+      border-radius: 50px;
+      margin-bottom: 8px;
+      display: inline-block;
+    }
+    .menu-card-header h3 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 20px;
+      line-height: 1.4;
+      margin-bottom: 4px;
+    }
+    .menu-card-header .price {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .menu-card-header .price span { font-size: 14px; font-weight: 400; }
+    .menu-card-body { padding: 20px 24px; }
+    .menu-card-body p {
+      font-size: 14px;
+      color: var(--text-sub);
+      line-height: 1.9;
+      margin-bottom: 16px;
+    }
+    .menu-for {
+      background: var(--pink-pale);
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .menu-for-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--pink);
+      margin-bottom: 8px;
+      letter-spacing: 0.05em;
+    }
+    .menu-for ul {
+      list-style: none;
+      padding: 0;
+    }
+    .menu-for ul li {
+      font-size: 13px;
+      color: var(--text);
+      padding: 3px 0 3px 18px;
+      position: relative;
+    }
+    .menu-for ul li::before {
+      content: '□';
+      position: absolute;
+      left: 0;
+      color: var(--pink);
+    }
+    .menu-voice {
+      margin-top: 14px;
+      font-size: 13px;
+      color: var(--brown);
+      border-left: 3px solid var(--gold);
+      padding-left: 12px;
+      font-style: italic;
+      line-height: 1.7;
+    }
+
+    /* ========== ABOUT ========== */
+    .about { background: var(--white); }
+    .about-inner {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .about-profile {
+      background: var(--beige);
+      border-radius: 16px;
+      padding: 28px 24px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .about-avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--pink-light), var(--beige-dark));
+      margin: 0 auto 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+    }
+    .about-name {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 22px;
+      color: var(--brown-dark);
+      margin-bottom: 4px;
+    }
+    .about-title {
+      font-size: 13px;
+      color: var(--text-sub);
+      margin-bottom: 16px;
+    }
+    .about-tags {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    .about-tag {
+      background: var(--white);
+      border: 1px solid var(--pink);
+      color: var(--brown);
+      font-size: 12px;
+      padding: 4px 12px;
+      border-radius: 50px;
+    }
+    .about-text {
+      font-size: 14px;
+      color: var(--text-sub);
+      line-height: 2;
+      text-align: left;
+    }
+    .about-text p { margin-bottom: 14px; }
+    .about-text strong { color: var(--brown-dark); }
+
+    /* ========== VOICE ========== */
+    .voice { background: var(--pink-pale); }
+    .voice-cards { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+    .voice-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(122,92,78,0.07);
+    }
+    .voice-card-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .voice-avatar {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: var(--pink-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--brown);
+      flex-shrink: 0;
+    }
+    .voice-meta { flex: 1; }
+    .voice-name { font-size: 14px; font-weight: 700; color: var(--brown-dark); }
+    .voice-age { font-size: 12px; color: var(--text-sub); }
+    .voice-intro {
+      max-width: 500px;
+      margin: -20px auto 28px;
+      text-align: center;
+      font-size: 14px;
+      color: var(--text-sub);
+    }
+    .voice-tag {
+      background: var(--pink-pale);
+      color: var(--pink);
+      border: 1px solid var(--pink-light);
+      border-radius: 50px;
+      padding: 3px 8px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+    .voice-before-after {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+      background: var(--pink-pale);
+      border-radius: 8px;
+      padding: 8px 12px;
+    }
+    .voice-before { font-size: 12px; color: var(--text-sub); flex: 1; }
+    .voice-arrow { color: var(--pink); font-size: 18px; flex-shrink: 0; }
+    .voice-after { font-size: 13px; color: var(--brown-dark); font-weight: 700; flex: 1; }
+    .voice-text { font-size: 13px; color: var(--text-sub); line-height: 1.8; }
+    .voice-flow-label, .voice-text-label {
+      display: block;
+      color: var(--pink);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      margin-bottom: 2px;
+    }
+
+    /* ========== FLOW ========== */
+    .flow { background: var(--white); }
+    .flow-list { max-width: 400px; margin: 0 auto; }
+    .flow-item {
+      display: flex;
+      gap: 16px;
+      position: relative;
+      padding-bottom: 28px;
+    }
+    .flow-item:last-child { padding-bottom: 0; }
+    .flow-item:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      left: 18px;
+      top: 44px;
+      width: 2px;
+      bottom: 0;
+      background: var(--pink-light);
+    }
+    .flow-num {
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      background: var(--pink);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 15px;
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1;
+    }
+    .flow-content { padding-top: 6px; }
+    .flow-content h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--brown-dark);
+      margin-bottom: 4px;
+    }
+    .flow-content p { font-size: 13px; color: var(--text-sub); line-height: 1.7; }
+
+    /* ========== FAQ ========== */
+    .faq { background: var(--beige); }
+    .faq-list { max-width: 500px; margin: 0 auto; }
+    .faq-item {
+      background: var(--white);
+      border-radius: 10px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+    .faq-q {
+      padding: 16px 20px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      cursor: pointer;
+    }
+    .faq-q-label {
+      color: var(--pink);
+      font-size: 18px;
+      font-weight: 700;
+      flex-shrink: 0;
+      font-family: 'Noto Serif JP', serif;
+    }
+    .faq-q-text { font-size: 14px; font-weight: 500; color: var(--brown-dark); line-height: 1.6; }
+    .faq-a {
+      padding: 0 20px 16px 20px;
+      margin-left: 30px;
+    }
+    .faq-a-label {
+      color: var(--gold);
+      font-size: 14px;
+      font-weight: 700;
+      margin-right: 6px;
+      font-family: 'Noto Serif JP', serif;
+    }
+    .faq-a-text { font-size: 13px; color: var(--text-sub); line-height: 1.8; display: inline; }
+
+    /* ========== CTA ========== */
+    .cta {
+      background: linear-gradient(160deg, var(--brown-dark) 0%, #3D2B1F 100%);
+      padding: 60px 24px;
+      text-align: center;
+    }
+    .cta h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(22px, 5vw, 32px);
+      color: var(--white);
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    .cta h2 .accent { color: var(--pink); }
+    .cta-sub {
+      font-size: 14px;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 32px;
+      line-height: 1.9;
+    }
+    .cta-benefit {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 28px;
+      max-width: 340px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+    .cta-benefit-title {
+      color: var(--gold);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .cta-benefit ul {
+      list-style: none;
+    }
+    .cta-benefit ul li {
+      color: var(--white);
+      font-size: 14px;
+      padding: 4px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    .cta-benefit ul li::before {
+      content: '✦';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 10px;
+    }
+    .cta-buttons { display: flex; flex-direction: column; gap: 14px; align-items: center; }
+    .btn-line {
+      display: inline-block;
+      background: #06C755;
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 700;
+      padding: 16px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      width: 100%;
+      max-width: 320px;
+      text-align: center;
+      box-shadow: 0 4px 16px rgba(6,199,85,0.35);
+    }
+    .btn-reserve {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--pink) 0%, #E8809F 100%);
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 700;
+      padding: 16px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      width: 100%;
+      max-width: 320px;
+      text-align: center;
+      box-shadow: 0 4px 16px rgba(242,167,190,0.45);
+    }
+    .cta-note {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+      margin-top: 20px;
+    }
+
+    /* ========== INFO ========== */
+    .info { background: var(--white); }
+    .info-table {
+      max-width: 500px;
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .info-table tr {
+      border-bottom: 1px solid var(--beige-dark);
+    }
+    .info-table th {
+      font-size: 13px;
+      color: var(--text-sub);
+      font-weight: 500;
+      padding: 14px 0;
+      width: 100px;
+      text-align: left;
+      vertical-align: top;
+    }
+    .info-table td {
+      font-size: 14px;
+      color: var(--text);
+      padding: 14px 0;
+      line-height: 1.7;
+    }
+
+    /* ========== FOOTER ========== */
+    footer {
+      background: var(--brown-dark);
+      color: rgba(255,255,255,0.6);
+      text-align: center;
+      padding: 30px 24px;
+      font-size: 12px;
+      line-height: 2;
+    }
+    footer .footer-logo {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 18px;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+
+    /* ========== FLOATING CTA ========== */
+    .floating-cta {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: var(--white);
+      border-top: 1px solid var(--pink-light);
+      padding: 12px 16px;
+      display: flex;
+      gap: 10px;
+      z-index: 99;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    }
+    .floating-cta a {
+      flex: 1;
+      text-align: center;
+      padding: 12px;
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .floating-line { background: #06C755; color: var(--white); }
+    .floating-reserve { background: var(--pink); color: var(--white); }
+
+    @media (min-width: 640px) {
+      .results-grid { grid-template-columns: 1fr 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="logo">ハッピーアロマ</div>
+    <a href="https://lin.ee/1lQFz0D" class="header-cta">予約・<br>お問い合わせ</a>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-label">山口市 女性専用プライベートサロン 完全予約制</div>
+    <h1>
+      <span class="accent">「あれ？最近、<br><span style="display:inline-block;padding-left:1em">しんどくない」</span></span><br>
+      を一緒に<br><span style="display:inline-block;padding-left:2em">叶えましょう。</span>
+    </h1>
+    <p class="hero-sub">
+      40代・50代女性の、年齢とともに増える<br>
+      “なんとなく不調”と肌悩みを、<br>
+      身体と肌の両面から整えるサロンです。
+    </p>
+    <div class="hero-badges">
+      <span class="badge">身体が軽くなる</span>
+      <span class="badge">肌が整う</span>
+      <span class="badge">毎日が楽になる</span>
+    </div>
+    <a href="https://lin.ee/1lQFz0D" class="hero-btn">LINEで無料相談・<br>ご予約</a>
+    <p class="hero-btn-sub">▼ 初回特典あり　▼ 女性限定</p>
+  </section>
+
+  <!-- PAIN -->
+  <div class="pain">
+    <h2>こんなお悩み、<br><span>ありませんか？</span></h2>
+    <ul class="pain-list">
+      <li>なんとなくいつも身体が重く、疲れが抜けにくい</li>
+      <li>ぐっすり眠れず、朝からスッキリしない</li>
+      <li>年齢とともに、ほてりや気分のゆらぎを感じる</li>
+      <li>肩や首のこわばり、むくみが気になる</li>
+      <li>肌のたるみ・くすみ・乾燥が気になってきた</li>
+      <li>自分のことはいつも後回し。心も身体も休めたい</li>
+      <li>「このまま年齢を重ねるのかな」と少し不安になる</li>
+    </ul>
+    <div class="pain-answer">
+      <strong>そろそろ、自分をいたわる時間を。</strong>
+      ひとつでも当てはまったら、そろそろ自分のために身体と肌をいたわる時間をつくりませんか？<br>
+      アロマの香りと心地よいトリートメントに包まれながら、頑張り続けてきた心と身体をゆるめる。<br>
+      「なんだか身体が軽い」「鏡を見るのがちょっと嬉しい」<br>
+      そんな毎日を一緒に目指していきます。
+    </div>
+  </div>
+
+  <!-- CONCEPT -->
+  <section class="concept">
+    <p class="section-label">CONCEPT</p>
+    <h2 class="section-title">ハッピーアロマが<br>目指すもの</h2>
+    <div class="concept-body">
+      <div class="concept-quote">
+        「なんとなく不調」も<br>年齢による肌の変化も<br>どちらも大切にケアしたい
+      </div>
+      <div class="concept-text">
+        <p>
+          40代・50代は、身体や肌の変化を感じやすい時期。<br>
+          疲れが抜けにくい、身体が重い、気持ちがゆらぐ。<br>
+          そして、たるみやくすみなど、<br class="mobile-break">鏡を見るたびに気になる変化も<br class="mobile-break">増えてきます。
+        </p>
+        <p>
+          ハッピーアロマでは、<br class="mobile-break">アロマとリンパトリートメント、<br class="mobile-break">フェイシャルケアを通して、<br class="mobile-break">身体と肌の両方から<br class="mobile-break">今のあなたに寄り添います。
+        </p>
+        <p>
+          その日の体調やお悩みに合わせた<br class="mobile-break">丁寧なケアで、心と身体を<br class="mobile-break">ゆるめながら、肌もいきいきと。
+        </p>
+        <p>
+          <strong>「なんだか身体が軽い」</strong><br>
+          <strong>「鏡を見るのがちょっと嬉しい」</strong>
+        </p>
+        <p>
+          そんな小さな変化を重ねながら、<br class="mobile-break">年齢を重ねても、自分らしく<br class="mobile-break">心地よく過ごせる毎日を一緒に<br class="mobile-break">目指します。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="results">
+    <p class="section-label">RESULTS</p>
+    <h2 class="section-title">お客様から届いた嬉しい変化</h2>
+    <div class="results-grid">
+      <div class="result-card">
+        <div class="icon">😴</div>
+        <div class="result-text">ぐっすり眠れて、朝がラクに感じるように</div>
+        <div class="result-name">50代・会社員</div>
+      </div>
+      <div class="result-card">
+        <div class="icon">🌿</div>
+        <div class="result-text">身体が軽く、疲れを引きずりにくくなった</div>
+        <div class="result-name">48歳・主婦</div>
+      </div>
+      <div class="result-card">
+        <div class="icon">✨</div>
+        <div class="result-text">フェイスラインがすっきりした印象に</div>
+        <div class="result-name">45歳・会社員</div>
+      </div>
+      <div class="result-card">
+        <div class="icon">👗</div>
+        <div class="result-text">お気に入りの服を<br>また楽しめるように<br>なった</div>
+        <div class="result-name">52歳・主婦</div>
+      </div>
+      <div class="result-card">
+        <div class="icon">🌸</div>
+        <div class="result-text">ゆらぎやすい時期も<br>心地よく過ごせる<br>ように</div>
+        <div class="result-name">49歳・パート</div>
+      </div>
+      <div class="result-card">
+        <div class="icon">💆‍♀️</div>
+        <div class="result-text">肩まわりが軽くなって、毎日がラクに</div>
+        <div class="result-name">47歳・主婦</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REASONS -->
+  <section class="reasons">
+    <p class="section-label">WHY CHOOSE US</p>
+    <h2 class="section-title">ハッピーアロマが<br>選ばれる5つの理由</h2>
+    <div class="reason-list">
+      <div class="reason-item">
+        <div class="reason-num">1</div>
+        <div class="reason-content">
+          <h3>セラピスト歴26年。積み重ねてきた経験と技術</h3>
+          <p>26年の経験をもとに、その日の体調やお悩みに合わせて、一人ひとりに丁寧に向き合います。</p>
+        </div>
+      </div>
+      <div class="reason-item">
+        <div class="reason-num">2</div>
+        <div class="reason-content">
+          <h3>50代のセラピストだからこそ、分かることがある</h3>
+          <p>年齢とともに感じる身体や肌の変化。同世代のセラピストだからこそ、気持ちに寄り添いながらケアします。</p>
+        </div>
+      </div>
+      <div class="reason-item">
+        <div class="reason-num">3</div>
+        <div class="reason-content">
+          <h3>アロマ×リンパ×フェイシャルで、身体も肌もケア</h3>
+          <p>心地よいアロマの香りとリンパトリートメント、フェイシャルケアを組み合わせ、身体と肌の両方から今のあなたに寄り添います。</p>
+        </div>
+      </div>
+      <div class="reason-item">
+        <div class="reason-num">4</div>
+        <div class="reason-content">
+          <h3>人目を気にせず過ごせる、完全個室のプライベートサロン</h3>
+          <p>ほかのお客様と顔を合わせることなく、ゆったりと自分だけの時間をお過ごしいただけます。</p>
+        </div>
+      </div>
+      <div class="reason-item">
+        <div class="reason-num">5</div>
+        <div class="reason-content">
+          <h3>その日のあなたに合わせたオーダーメイド施術</h3>
+          <p>毎回カウンセリングを行い、その日の体調やお悩みに合わせて施術内容を調整します。決まった施術ではなく、今のあなたに必要なケアを大切にしています。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu">
+    <p class="section-label">MENU</p>
+    <h2 class="section-title">メニュー</h2>
+    <div class="menu-cards">
+
+      <!-- フェイシャル -->
+      <div class="menu-card">
+        <div class="menu-card-header">
+          <div class="menu-tag">FACIAL</div>
+          <h3>大人の艶肌<br>小顔フェイシャル</h3>
+          <div class="price">¥15,000<span>（税込）</span></div>
+        </div>
+        <div class="menu-card-body">
+          <p>アロマの香りで心身をゆるめながら、リンパの流れを整え、年齢とともに気になるフェイスラインや肌の変化を丁寧にケア。<br><br>すっきりとした印象と、艶のある明るい肌へ導きます。</p>
+          <div class="menu-for">
+            <div class="menu-for-title">こんな方へ</div>
+            <ul>
+              <li>フェイスラインのゆるみ・もたつきが気になる</li>
+              <li>くすみやハリ不足で、肌が疲れて見える</li>
+              <li>目元や頬の年齢サインが気になってきた</li>
+              <li>鏡を見るたび「もう少し若々しく見えたら」と感じる</li>
+            </ul>
+          </div>
+          <div class="menu-voice">「鏡を見たとき、フェイスラインがすっきりした印象に。肌にも艶が出て、久しぶりに鏡を見るのが楽しみになりました」</div>
+        </div>
+      </div>
+
+      <!-- ボディ -->
+      <div class="menu-card">
+        <div class="menu-card-header">
+          <div class="menu-tag">BODY</div>
+          <h3>大人の美巡り<br>アロマリンパボディ</h3>
+          <div class="price">¥15,000<span>（税込）</span></div>
+        </div>
+        <div class="menu-card-body">
+          <p>アロマの香りで心身をゆるめながら、全身のリンパの流れを丁寧に整えます。<br><br>年齢とともに感じる疲れやむくみ、身体の重だるさに寄り添い、毎日を軽やかに過ごせる身体へ。</p>
+          <div class="menu-for">
+            <div class="menu-for-title">こんな方へ</div>
+            <ul>
+              <li>疲れが抜けにくく、身体の重さを感じる</li>
+              <li>むくみや冷えが気になる</li>
+              <li>年齢とともに身体の変化を感じるようになった</li>
+              <li>忙しい毎日から離れて、心も身体もゆるめたい</li>
+            </ul>
+          </div>
+          <div class="menu-voice">「施術後は身体がすっきり軽く感じ、パンツもゆったり。気持ちまで軽やかになりました」</div>
+        </div>
+      </div>
+
+      <!-- ダイエット -->
+      <div class="menu-card">
+        <div class="menu-card-header">
+          <div class="menu-tag">キャビテーション × ラジオ波 × リンパケア</div>
+          <h3>大人の美痩せ<br>ボディメイク</h3>
+          <div class="price">¥20,000<span>（税込）</span></div>
+        </div>
+        <div class="menu-card-body">
+          <p>年齢とともに変化しやすいボディラインに、キャビテーションとラジオ波でアプローチ。<br>お一人おひとりの体型やお悩みに合わせて、気になる部分を丁寧にケアしながら、リンパの流れも整えます。<br><br>体重だけにとらわれず、すっきりとした女性らしいボディラインへ。</p>
+          <div class="menu-for">
+            <div class="menu-for-title">こんな方へ</div>
+            <ul>
+              <li>食事に気をつけても、以前のように体型が戻りにくい</li>
+              <li>気になる部分をすっきり整えたい</li>
+              <li>年齢とともにボディラインの変化を感じる</li>
+              <li>体重だけでなく、見た目もすっきり整えたい</li>
+            </ul>
+          </div>
+          <div class="menu-voice">「気になっていた部分がすっきりして、パンツを履いたときのラインが嬉しいです。お気に入りの服をまた楽しめるようになりました」</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <p class="section-label">ABOUT</p>
+    <h2 class="section-title">セラピスト紹介</h2>
+    <div class="about-inner">
+      <div class="about-profile">
+        <div class="about-avatar" style="overflow:hidden;"><img src="data:image/jpeg;base64,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" alt="あき" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+        <div class="about-name">あき</div>
+        <div class="about-title">アロマセラピスト / ハッピーアロマ 代表</div>
+        <div class="about-tags">
+          <span class="about-tag">セラピスト歴26年</span>
+          <span class="about-tag">50歳</span>
+          <span class="about-tag">山口市在住</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>
+          はじめまして。ハッピーアロマのあきです。<br>
+          セラピスト歴26年。私自身も50代を迎え、年齢とともに変化する身体や肌と向き合いながら、お客様の施術を続けています。
+        </p>
+        <p>
+          これまで大切にしてきたのは、<strong>その日の身体や心の状態を丁寧に感じ取り、お一人おひとりに合わせたケアをすること。</strong><br>
+          アロマの香りとリンパトリートメント、フェイシャルケアを通して、心地よく年齢を重ねていくためのお手伝いをしています。
+        </p>
+        <p>
+          同じ世代だからこそ分かる、40代・50代の「なんとなくしんどい」や、年齢とともに感じる身体や肌の変化。<br>
+          <strong>「最近、なんだか調子がいい」</strong><br>
+          <strong>「鏡を見るのが少し楽しみになった」</strong><br>
+          そんな変化を感じていただけることが、私の何よりの喜びです。
+        </p>
+        <p>
+          どうぞ一人で抱え込まず、気軽にご相談ください。<br>
+          <strong>これからの自分をもっと好きでいられるように、一緒に身体と肌を整えていきましょう。</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOICE -->
+  <section class="voice">
+    <p class="section-label">VOICE</p>
+    <h2 class="section-title">お客様の声</h2>
+    <p class="voice-intro">同世代のお客様から届いた、嬉しいお声をご紹介します。</p>
+    <div class="voice-cards">
+
+      <div class="voice-card">
+        <div class="voice-card-header">
+          <div class="voice-avatar">M</div>
+          <div class="voice-meta">
+            <div class="voice-name">M.Kさん</div>
+            <div class="voice-age">48歳・主婦</div>
+          </div>
+          <div class="voice-tag">BODY</div>
+        </div>
+        <div class="voice-before-after">
+          <div class="voice-before"><span class="voice-flow-label">お悩み</span>冷え・疲れやすさが気になる</div>
+          <div class="voice-arrow">→</div>
+          <div class="voice-after"><span class="voice-flow-label">感じた変化</span>身体が軽く、毎日を心地よく</div>
+        </div>
+        <div class="voice-text"><span class="voice-text-label">お客様の声</span>「以前より身体が軽く感じられ、毎日を楽に過ごせるようになりました。通う時間そのものが楽しみです。」</div>
+      </div>
+
+      <div class="voice-card">
+        <div class="voice-card-header">
+          <div class="voice-avatar">T</div>
+          <div class="voice-meta">
+            <div class="voice-name">T.Sさん</div>
+            <div class="voice-age">52歳・会社員</div>
+          </div>
+          <div class="voice-tag">BODY</div>
+        </div>
+        <div class="voice-before-after">
+          <div class="voice-before"><span class="voice-flow-label">お悩み</span>肩や腰の重だるさが気になる</div>
+          <div class="voice-arrow">→</div>
+          <div class="voice-after"><span class="voice-flow-label">感じた変化</span>身体がすっきり軽やかに</div>
+        </div>
+        <div class="voice-text"><span class="voice-text-label">お客様の声</span>「施術後は肩まわりや脚がすっきり。忙しい毎日の中で、身体も気持ちもゆるめられる大切な時間です。」</div>
+      </div>
+
+      <div class="voice-card">
+        <div class="voice-card-header">
+          <div class="voice-avatar">Y</div>
+          <div class="voice-meta">
+            <div class="voice-name">Y.Mさん</div>
+            <div class="voice-age">45歳・パート</div>
+          </div>
+          <div class="voice-tag">FACIAL</div>
+        </div>
+        <div class="voice-before-after">
+          <div class="voice-before"><span class="voice-flow-label">お悩み</span>フェイスライン・目元の印象が気になる</div>
+          <div class="voice-arrow">→</div>
+          <div class="voice-after"><span class="voice-flow-label">感じた変化</span>フェイスラインすっきり、艶のある明るい印象へ</div>
+        </div>
+        <div class="voice-text"><span class="voice-text-label">お客様の声</span>「施術後に鏡を見ると、フェイスラインがすっきりしたように感じ、肌にも艶が。鏡を見るのが楽しみになりました。」</div>
+      </div>
+
+      <div class="voice-card">
+        <div class="voice-card-header">
+          <div class="voice-avatar">K</div>
+          <div class="voice-meta">
+            <div class="voice-name">K.Hさん</div>
+            <div class="voice-age">50歳・主婦</div>
+          </div>
+          <div class="voice-tag">BODY MAKE</div>
+        </div>
+        <div class="voice-before-after">
+          <div class="voice-before"><span class="voice-flow-label">お悩み</span>ウエストまわりのラインが気になる</div>
+          <div class="voice-arrow">→</div>
+          <div class="voice-after"><span class="voice-flow-label">感じた変化</span>お気に入りの服を楽しめるボディラインへ</div>
+        </div>
+        <div class="voice-text"><span class="voice-text-label">お客様の声</span>「気になっていたウエストまわりがすっきりしたように感じ、パンツスタイルを楽しめるようになりました。」</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FLOW -->
+  <section class="flow">
+    <p class="section-label">FLOW</p>
+    <h2 class="section-title">ご予約から施術当日の流れ</h2>
+    <div class="flow-list">
+      <div class="flow-item">
+        <div class="flow-num">1</div>
+        <div class="flow-content">
+          <h3>LINEでご相談・ご予約</h3>
+          <p>「どのメニューが合うかわからない」「こんな悩みでも大丈夫？」など、まずはお気軽にご相談ください。初めての方にも丁寧にご案内いたします。</p>
+        </div>
+      </div>
+      <div class="flow-item">
+        <div class="flow-num">2</div>
+        <div class="flow-content">
+          <h3>丁寧なカウンセリング</h3>
+          <p>お悩みや体調、その日の状態などを伺いながら、あなたに合ったケアをご提案します。初めての方も安心してお過ごしください。</p>
+        </div>
+      </div>
+      <div class="flow-item">
+        <div class="flow-num">3</div>
+        <div class="flow-content">
+          <h3>あなただけのオーダーメイド施術</h3>
+          <p>その日の状態やお悩みに合わせて、施術内容を丁寧に調整。一人ひとりに寄り添ったケアをご提供します。</p>
+        </div>
+      </div>
+      <div class="flow-item">
+        <div class="flow-num">4</div>
+        <div class="flow-content">
+          <h3>施術後のアフターカウンセリング</h3>
+          <p>施術後のお身体やお肌の状態を一緒に確認し、ご自宅で無理なくできるセルフケアもお伝えします。わからないことや気になることがあれば、お気軽にご相談ください。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <p class="section-label">FAQ</p>
+    <h2 class="section-title">よくある質問</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-label">Q</span>
+          <span class="faq-q-text">初めてでも大丈夫ですか？</span>
+        </div>
+        <div class="faq-a">
+          <span class="faq-a-label">A</span>
+          <span class="faq-a-text">もちろんです。初回はお悩みや体調を丁寧に伺ってから施術を行います。アロマやリンパトリートメントが初めての方も、安心してお越しください。小さなことでもお気軽にご相談ください。</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-label">Q</span>
+          <span class="faq-q-text">どのメニューを選べばいいかわかりません。</span>
+        </div>
+        <div class="faq-a">
+          <span class="faq-a-label">A</span>
+          <span class="faq-a-text">ご安心ください。お悩みやご希望を伺いながら、あなたに合ったメニューをご案内いたします。「ボディとフェイシャル、どちらがいいかわからない」「まず相談してから決めたい」という方も、LINEからお気軽にご相談ください。</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-label">Q</span>
+          <span class="faq-q-text">1回でも変化を感じられますか？</span>
+        </div>
+        <div class="faq-a">
+          <span class="faq-a-label">A</span>
+          <span class="faq-a-text">感じ方には個人差がありますが、施術後に「身体が軽く感じる」「すっきりした」「肌が明るく見える」などの変化を感じられる方もいらっしゃいます。まずは一度、ご自身の身体やお肌で体感してみてください。</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-label">Q</span>
+          <span class="faq-q-text">場所や駐車場について教えてください。</span>
+        </div>
+        <div class="faq-a">
+          <span class="faq-a-label">A</span>
+          <span class="faq-a-text">山口市の女性専用プライベート自宅サロンです。詳しい場所はご予約確定後にご案内いたします。駐車場もございますので、お車で安心してお越しいただけます。</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-label">Q</span>
+          <span class="faq-q-text">支払い方法は？</span>
+        </div>
+        <div class="faq-a">
+          <span class="faq-a-label">A</span>
+          <span class="faq-a-text">現在は現金でのお支払いをお願いしております。当日ご用意のうえお越しください。</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-label">Q</span>
+          <span class="faq-q-text">体調について気になることがある場合は？</span>
+        </div>
+        <div class="faq-a">
+          <span class="faq-a-label">A</span>
+          <span class="faq-a-text">その日の体調やお身体の状態を伺いながら、無理のない範囲で施術いたします。重いご病気で治療中の方は、安全のため事前に主治医の先生にアロマリンパトリートメントを受けてもよいかご確認ください。</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>「あれ？最近、<br><span class="accent">しんどくない？</span>」<br>もっと軽やかな毎日を、<br>一緒に叶えませんか？</h2>
+    <p class="cta-sub">
+      「こんなこと相談してもいいのかな？」と思うことも、<br>
+      まずはLINEで、お気軽にご相談ください。<br>
+      セラピスト歴26年の私が、丁寧にお答えします。
+    </p>
+    <div class="cta-benefit">
+      <div class="cta-benefit-title">✨ 初回特典 ✨</div>
+      <ul>
+        <li>ヘッドマッサージ無料プレゼント</li>
+        <li>丁寧なカウンセリング</li>
+        <li>あなたに合ったメニューをご提案</li>
+      </ul>
+    </div>
+    <div class="cta-buttons">
+      <a href="https://lin.ee/1lQFz0D" class="btn-line">LINEで相談・ご予約</a>
+      <a href="https://tol-app.jp/s/happyaroma0630" class="btn-reserve">カレンダーからご予約</a>
+    </div>
+    <p class="cta-note">山口市｜女性専用プライベートサロン｜完全予約制</p>
+  </section>
+
+  <!-- INFO -->
+  <section class="info">
+    <p class="section-label">INFO</p>
+    <h2 class="section-title">サロン情報</h2>
+    <table class="info-table">
+      <tr>
+        <th>サロン名</th>
+        <td>ハッピーアロマ</td>
+      </tr>
+      <tr>
+        <th>場所</th>
+        <td>山口県山口市<br>（ご予約後に詳細をお伝えします）</td>
+      </tr>
+      <tr>
+        <th>対象</th>
+        <td>女性専用</td>
+      </tr>
+      <tr>
+        <th>予約方法</th>
+        <td>完全予約制<br>LINEでのご相談・ご予約／ご予約サイト</td>
+      </tr>
+      <tr>
+        <th>駐車場</th>
+        <td>あり（無料）</td>
+      </tr>
+      <tr>
+        <th>お支払い</th>
+        <td>現金のみ</td>
+      </tr>
+      <tr>
+        <th>Instagram</th>
+        <td>@happy_aroma_aki</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">ハッピーアロマ</div>
+    <p>山口市 女性専用プライベートアロマサロン</p>
+    <p>40代・50代女性の身体と肌に寄り添うサロン</p>
+    <br>
+    <p>© 2024 ハッピーアロマ All Rights Reserved.</p>
+  </footer>
+
+  <!-- FLOATING CTA -->
+  <div class="floating-cta">
+    <a href="https://lin.ee/1lQFz0D" class="floating-line">📩 LINEで相談</a>
+    <a href="https://tol-app.jp/s/happyaroma0630" class="floating-reserve">ご予約はこちら</a>
+  </div>
+
+</body>
+</html>
